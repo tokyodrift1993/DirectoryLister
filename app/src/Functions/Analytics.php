@@ -11,8 +11,8 @@ class Analytics extends ViewFunction
 {
     public string $name = 'analytics';
 
-    #[Inject('base_path')]
-    private string $basePath;
+    #[Inject('files_path')]
+    private string $filesPath;
 
     #[Inject('analytics_file')]
     private string $analyticsFile;
@@ -20,7 +20,7 @@ class Analytics extends ViewFunction
     /** Get the contents of the .analytics file. */
     public function __invoke(): Markup
     {
-        $analyticsFile = $this->basePath . '/' . $this->analyticsFile;
+        $analyticsFile = $this->filesPath . '/' . $this->analyticsFile;
 
         if (! is_file($analyticsFile)) {
             return new Markup('', 'UTF-8');
