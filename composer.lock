@@ -4303,16 +4303,16 @@
         },
         {
             "name": "phlak/coding-standards",
-            "version": "4.0.0",
+            "version": "4.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHLAK/CodingStandards.git",
-                "reference": "a42fa618f317cf964c3bed43bce6ef9d6d4565e5"
+                "reference": "ac5906c1b7918e0af5300aa39eee2ac4720be454"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHLAK/CodingStandards/zipball/a42fa618f317cf964c3bed43bce6ef9d6d4565e5",
-                "reference": "a42fa618f317cf964c3bed43bce6ef9d6d4565e5",
+                "url": "https://api.github.com/repos/PHLAK/CodingStandards/zipball/ac5906c1b7918e0af5300aa39eee2ac4720be454",
+                "reference": "ac5906c1b7918e0af5300aa39eee2ac4720be454",
                 "shasum": ""
             },
             "require": {
@@ -4321,7 +4321,7 @@
             },
             "require-dev": {
                 "phpstan/phpstan": "^2.0",
-                "symfony/var-dumper": "^6.0 || ^7.0",
+                "symfony/var-dumper": "^6.0 || ^7.0 || ^8.0",
                 "yoast/phpunit-polyfills": "^3.0"
             },
             "suggest": {
@@ -4349,7 +4349,7 @@
             "description": "A pre-defined set of coding standards for PHP CS Fixer.",
             "support": {
                 "issues": "https://github.com/PHLAK/CodingStandards/issues",
-                "source": "https://github.com/PHLAK/CodingStandards/tree/4.0.0"
+                "source": "https://github.com/PHLAK/CodingStandards/tree/4.1.0"
             },
             "funding": [
                 {
@@ -4361,7 +4361,7 @@
                     "type": "paypal"
                 }
             ],
-            "time": "2024-12-11T03:59:52+00:00"
+            "time": "2026-02-27T04:48:01+00:00"
         },
         {
             "name": "phpstan/phpstan",
